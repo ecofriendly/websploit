@@ -10,7 +10,7 @@ from core import wcolors
 from core import help
 from time import sleep
 
-options = ["eth0", "192.168.1.1", "Java", "Java"]
+options = ["wlan0", "192.168.1.1", "Java", "Java"]
 def java_applet():
 	try:
 		line_1 = wcolors.color.UNDERL + wcolors.color.BLUE + "wsf" + wcolors.color.ENDC
