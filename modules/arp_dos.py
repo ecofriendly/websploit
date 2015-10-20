@@ -9,7 +9,7 @@ from core import wcolors
 from core import help
 from time import sleep
 
-options = ["192.168.1.1", "192.168.1.3", "eth0"]
+options = ["192.168.1.1", "192.168.1.3", "wlan0"]
 def arp_dos():
 	try:
 		line_1 = wcolors.color.UNDERL + wcolors.color.BLUE + "wsf" + wcolors.color.ENDC
