@@ -10,7 +10,7 @@ import subprocess
 from time import sleep
 from core import wcolors
 from core import help
-options = ["eth0", "192.168.1.1"]
+options = ["wlan0", "192.168.1.1"]
 def fakeupdate():
     try:
         line_1 = wcolors.color.UNDERL + wcolors.color.BLUE + "wsf" + wcolors.color.ENDC
