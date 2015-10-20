@@ -9,7 +9,7 @@ import subprocess
 from core import wcolors
 from core import help
 from time import sleep
-options = ["eth0", "192.168.1.1", "192.168.1.2", "driftnet", "true"]
+options = ["wlan0", "192.168.1.1", "192.168.1.2", "driftnet", "true"]
 
 def mitm():
 	try:
