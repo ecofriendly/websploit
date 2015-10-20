@@ -11,7 +11,7 @@ from core import wcolors
 from scapy.all import *
 from time import sleep
 
-options = ["eth0", "192.168.1.1", "192.168.1.2", "192.168.1.3"]
+options = ["wlan0", "192.168.1.1", "192.168.1.2", "192.168.1.3"]
 def arp_poisoner():
     try:
         line_1 = wcolors.color.UNDERL + wcolors.color.BLUE + "wsf" + wcolors.color.ENDC
